@@ -1,0 +1,34 @@
+<?php
+$txt1 = "eu sou o joao e";
+$txt2 = "na turma sou o numero";
+$txt3 = "na turma sou o numero";
+$nome = "Luis Miguel";
+$numero = "15";
+$turma = "12ºi1";
+$num1 = "15";
+$num2 = "20";
+$texto = "os textes estao do disco em";
+$caminho = "D:\LMInsider\ redes";
+$texto1 = "em php";
+$texto2 = "a declaraçao de uma variavel implica a precedencia de um caracter especial";
+$texto3 = "o carater";
+$texto4 = "o professor <br>";
+$texto5 = "chegou perto <br>";
+$texto6 = "do aluno e <br>";
+$texto7 = "exclamou: se nao <br>";
+$texto8 = "estudares, vais <br>";
+$texto9 = "resprovar de ano!";
+echo $txt1. " " .$txt2. " " .$num1. " " .$txt3. " " .$num2. "valores.";
+echo "<br>";
+echo "<br>";
+echo $nome. "nº" .$numero. "da turma" .$turma;
+echo "<br>";
+echo "<br>";
+echo $texto. " " .$caminho;
+echo "<br>";
+echo "<br>";
+echo $texto1. "," .$texto2. ":" .$texto3. "$.";
+echo "<br>";
+echo "<br>";
+echo $texto4. " " .$texto5. " " .$texto6. " " .$texto7. " " .$texto8. " " .$texto9;
+?>

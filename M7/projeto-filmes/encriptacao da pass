@@ -1,0 +1,12 @@
+$util=$res->fetch_assoc();
+					$stm->close();
+					$password_encriptada=$util['password'];
+					$verify = password_verify($password, $password_encriptada);
+
+					$_SESSION['id_user']=$util['id'];
+
+					if ($verify==True) {
+						$_SESSION['login']="correto";
+					}
+					else{
+						$_SESSION['login']="incorreto";
