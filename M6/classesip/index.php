@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
     <head>
-
     </head>
     <body>
         <h1>Classes IP</h1>
-        <h5>Digite o Endereço IP que pretende verificar
+        <h5>Digite o Endereço IP que pretende verificar:
         <form action="processa_ip.php">
             <input type="text" name="a">
             <input type="text" name="b">
@@ -16,7 +15,7 @@
         </h5>
         <br><br>
 	    <h3>Protocolos</h3>
-	    <h4>Selecione o protocolo</h4>
+	    <h4>Selecione o protocolo:</h4>
 	    <form action="processa_protocol.php">
   		    <select name="protocolo" id="cars">
 		        <option value="dns">DNS</option>
